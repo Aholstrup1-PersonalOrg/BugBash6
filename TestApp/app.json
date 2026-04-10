@@ -1,27 +1,29 @@
 {
-  "id": "eca241f8-6f27-4b15-8d02-387c7b7df46e",
+  "id": "7777dbaf-e6a7-4181-81e6-5f57594a3905",
   "name": "TestApp",
   "publisher": "TestPublisher",
   "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
+  "brief": "Test application",
+  "description": "Test application for AppSource",
+  "privacyStatement": "https://example.com/privacy",
+  "EULA": "https://example.com/eula",
+  "help": "https://example.com/help",
+  "url": "https://example.com",
+  "logo": "./logo.png",
+  "contextSensitiveHelpUrl": "https://example.com/help",
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
   "application": "22.0.0.0",
   "idRanges": [
     {
-      "from": 50001,
-      "to": 50010
+      "from": 1000000,
+      "to": 1000010
     }
   ],
   "features": [
-    "NoImplicitWith"
+    "NoImplicitWith",
+    "TranslationFile"
   ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
